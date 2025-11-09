@@ -1,0 +1,712 @@
+<!--
+Last Updated: 2025-05-31 UTC
+Author: RahulKarra
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Basic SEO -->
+    <meta name="description" content="Explore Sandesh's professional videography and editing portfolio. Includes client reels, promos, testimonials, and contact options.">
+    <meta name="keywords" content="video editor, videographer, Professional Video Editor, Freelance video editor, cinematic video editor, Youtube video Editor, Adobe Premiere Pro Editor, After Effects Editor, Text Animator, Video Editing Services Online,
+    visual effects, reels, reels editor, promotional video editor, short films editor, editor, portfolio, Sandesh, sandeshvg, sandesh vg, sandesh v g, videoeditor, video editor, creative video editor, videoediting, Editography">
+    <meta name="author" content="Sandesh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Sandesh V G | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/sandesh-favicon.jpg" type="image/x-icon">
+</head>
+
+<body class="antialiased">
+    <div class="w-full mx-auto">
+
+        <!-- Header/Navbar -->
+        <header class="w-full fixed top-0 transition-all duration-300 z-50" id="navbar">
+            <div class="mx-auto px-4">
+                <!-- Find this in your header section -->
+                <nav class="bg-gradient-to-r from-[#fc354c] to-[#0abfbc] rounded-[30px] my-4 mx-4 px-8 py-4 transition-all duration-300"
+                    id="nav-content">
+                    <div class="flex justify-between items-center">
+                        <a href="#home" class="text-xl font-semibold text-white">Sandesh V G</a>
+
+                        <!-- Desktop Navigation -->
+                        <div class="hidden md:flex space-x-8">
+                            <a href="#home" class="nav-link text-white hover:text-gray-200">Home</a>
+                            <a href="#about" class="nav-link text-white hover:text-gray-200">About</a>
+                            <a href="#section1" class="nav-link text-white hover:text-gray-200">Long Form Videos</a>
+                            <a href="#section2" class="nav-link text-white hover:text-gray-200">Short Form Videos</a>
+                            <a href="#section3" class="nav-link text-white hover:text-gray-200">Corporate Videos</a>
+                            <a href="#testimonials" class="nav-link text-white hover:text-gray-200">Testimonials</a>
+                            <a href="#contact" class="nav-link text-white hover:text-gray-200">Contact Us</a>
+                        </div>
+                        <!-- Dark-Mode toggle button -->
+                        <div class="hidden md:flex items-center ml-8">
+                            <button id="theme-toggle"
+                                class="w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-white/10 transition-all duration-300">
+                                <i class="fas fa-sun text-xl"></i>
+                            </button>
+                        </div>
+
+                        <!-- Mobile-view Darkmode toggle button -->
+                        <div class="flex items-center md:hidden">
+                            <button id="theme-toggle-mobile"
+                                class="w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-white/10 transition-all duration-300 mr-2">
+                                <i class="fas fa-sun text-xl"></i>
+                            </button>
+                        </div>
+
+                        <!-- Hamburger Button -->
+                        <button id="hamburger" class="md:hidden p-2 focus:outline-none" aria-label="Menu">
+                            <div class="w-6 h-5 relative flex flex-col justify-between">
+                                <span id="line1"
+                                    class="w-full h-0.5 bg-white rounded-full transform transition-all duration-300"></span>
+                                <span id="line2"
+                                    class="w-full h-0.5 bg-white rounded-full transform transition-all duration-300"></span>
+                                <span id="line3"
+                                    class="w-full h-0.5 bg-white rounded-full transform transition-all duration-300"></span>
+                            </div>
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- Mobile Menu -->
+                <div id="mobileMenu"
+                    class="md:hidden fixed inset-x-4 top-24 bg-gradient-to-r from-[#fc354c]/90 to-[#0abfbc]/90 backdrop-blur-md rounded-2xl transform scale-y-0 opacity-0 origin-top transition-all duration-300 ease-in-out z-50">
+                    <div class="flex flex-col py-4">
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="#home"
+                                    class="flex items-center text-white text-lg p-4 rounded-lg hover:bg-blue-600/50 transition-all">
+                                    <i class="fas fa-home w-8"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about"
+                                    class="flex items-center text-white text-lg p-4 rounded-lg hover:bg-blue-600/50 transition-all">
+                                    <i class="fas fa-user w-8"></i>
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#section1"
+                                    class="flex items-center text-white text-lg p-4 rounded-lg hover:bg-blue-600/50 transition-all">
+                                    <i class="fas fa-layer-group w-8"></i>
+                                    <span>Long Form videos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#section2"
+                                    class="flex items-center text-white text-lg p-4 rounded-lg hover:bg-blue-600/50 transition-all">
+                                    <i class="fas fa-cube w-8"></i>
+                                    <span>Short Form Videos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#section3"
+                                    class="flex items-center text-white text-lg p-4 rounded-lg hover:bg-blue-600/50 transition-all">
+                                    <i class="fas fa-shapes w-8"></i>
+                                    <span>Corporate Videos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#testimonials" class="flex items-center text-white text-lg p-4 rounded-lg hover:bg-blue-600/50 transition-all">
+                                    <i class="fas fa-comments w-8"></i>
+                                    <span>Testimonials</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact"
+                                    class="flex items-center text-white text-lg p-4 rounded-lg hover:bg-blue-600/50 transition-all">
+                                    <i class="fas fa-envelope w-8"></i>
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </header>
+
+        <!-- Home Section -->
+        <section class="py-20 md:py-28 min-h-[90vh] flex items-center" id="home">
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center max-w-7xl mx-auto px-4 pt-16 md:pt-0">
+                <!-- Text Content - First -->
+                <div class="slide-in-left order-2 md:order-1 text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6">
+                        Hey, I am <span class="text-[#4285f4]">Sandesh V G</span>
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 mb-8">
+                        I'm a video editor who turns raw footage into impactful, engaging stories. I bring creativity and precision to every project.
+                    </p>
+
+                    <!-- Home page Buttons-->
+                    <div class="flex justify-center md:justify-start space-x-4">
+                        <!-- Learn More Button -->
+                        <button onclick="scrollToSection('about')"
+                            class="primary-btn px-8 py-4 bg-[#4285f4] text-white rounded-md transition transform hover:scale-105">
+                            Learn More
+                        </button>
+
+                        <!-- Get in Touch Button -->
+                        <button onclick="scrollToSection('contact')"
+                            class="secondary-btn px-8 py-4 border-2 border-[#4285f4] text-[#4285f4] rounded-md transition transform hover:scale-105">
+                            Get in Touch
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div class="slide-in-right order-1 md:order-2 flex justify-center md:justify-end mb-8 md:mb-0">
+                    <div class="profile-image w-72 h-72 md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]">
+                        <img src="images/sandesh.jpg" alt="Sandesh VG" loading="lazy" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-20" id="about">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="slide-from-left">
+                        <div class="rounded-lg overflow-hidden shadow-xl max-w-md mx-auto">
+                            <img src="images/SandeshImage.jpg" loading="lazy"
+                                alt="About Me" class="w-full h-auto aspect-square object-cover">
+                        </div>
+                    </div>
+                    <div class="slide-from-right">
+                        <h2 class="text-3xl md:text-4xl font-semibold mb-6">About Me</h2>
+                        <p class="text-gray-600 mb-4">
+                            I'm a passionate and creative video editor with a sharp eye for storytelling, rhythm, and visual impact. 
+                            My mission is to transform raw footage into captivating stories that connect with audiences and leave a lasting impression. 
+                            Whether it's a short social media reel, a cinematic film, a music video, or a corporate promo, 
+                            I bring each frame to life with precision and purpose.
+
+                        </p>
+                        <p class="text-gray-600 mb-4">
+                            With 7+ years of experience using industry-standard tools like Adobe Premiere Pro, After Effects and Photoshop , 
+                            I handle every stage of post-production with confidence—from color correction and audio syncing to dynamic transitions and motion graphics. 
+                            I'm not just cutting clips; I'm shaping emotions, building suspense, and enhancing meaning through every edit.
+                            <br><br>
+                            My goal is simple: to help brands, creators, and storytellers deliver messages that resonate through high-quality, professional video content. 
+                            If you're looking for someone who cares as much about your story as you do, let's create something incredible together.    
+                        </p>
+                        <div class="mt-8">
+                            <h4 class="font-medium mb-3">Skills & Expertise</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Premier Pro</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">After Effects</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Adobe Photoshop</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Audio Editing</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Motion Graphics & Visual Effects (VFX)</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Visual Composition</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Post-Production Workflow</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Export & Compression</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 1 Long Form Videos -->
+        <section class="py-20" id="section1">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="text-center mb-12 fade-in">
+                    <h2 class="text-3xl md:text-4xl font-semibold mb-4">Long Form Videos</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        Discover my latest video productions showcasing design concepts and interactive experiences.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                    <!-- Video 1 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden fade-in">
+                        <div class="relative aspect-video">
+                          <div class="custom-drive-video w-full h-full relative cursor-pointer overflow-hidden" onclick="loadDriveVideo(this, 'https://drive.google.com/file/d/1BD81LPSCZ32xT4YRk4l-SYjpMAI2-sN-/preview')">
+                            <img src="images/MultiplyMovements_Reel4.png" alt="Video thumbnail" loading="lazy" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/40">
+                              <i class="fas fa-play text-white text-3xl md:text-5xl"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-6">
+                          <h3 class="text-xl font-medium mb-2">Addition to Multiplication</h3>
+                          <p class="text-gray-600">A warm recap of a joyful, family-focused gathering.</p>
+                        </div>
+                      </div>
+                      
+
+                    <!-- Video 2 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden fade-in">
+                        <div class="relative aspect-video">
+                          <div class="custom-drive-video w-full h-full relative cursor-pointer overflow-hidden" onclick="loadDriveVideo(this, 'https://drive.google.com/file/d/1dwClHGyXTYj_jmxG-3_3Zo3k4mOl_Jeh/preview')">
+                            <img src="images/Disciple-School.png" alt="Video thumbnail" loading="lazy" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/40">
+                              <i class="fas fa-play text-white text-3xl md:text-5xl"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-6">
+                          <h3 class="text-xl font-medium mb-2">Disciple School</h3>
+                          <p class="text-gray-600">An inspiring online course on practical discipleship.</p>
+                        </div>
+                      </div>
+                      
+
+                    <!-- Video 3 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden fade-in">
+                        <div class="relative aspect-video">
+                          <div class="custom-drive-video w-full h-full relative cursor-pointer overflow-hidden" onclick="loadDriveVideo(this, 'https://drive.google.com/file/d/1cpZgf2D-goUjjCxUC4BQQ2y24L5uhtaZ/preview')">
+                            <img src="images/Decisions & Attendance.png" alt="Video thumbnail" loading="lazy" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/40">
+                              <i class="fas fa-play text-white text-3xl md:text-5xl"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-6">
+                          <h3 class="text-xl font-medium mb-2">Decisions & Attendance to Disciples</h3>
+                          <p class="text-gray-600">A concise highlight reel of key faith-driven moments.</p>
+                        </div>
+                      </div>                      
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2  Short Form videos -->
+        <section class="py-20" id="section2">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="text-center mb-12 fade-in">
+                    <h2 class="text-3xl md:text-4xl font-semibold mb-4">Short Form Videos</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        View my portfolio of video projects demonstrating creative solutions and technical skills.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                    <!-- Video 1 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden fade-in">
+                        <div class="relative aspect-video">
+                          <div class="custom-drive-video w-full h-full relative cursor-pointer overflow-hidden" onclick="loadDriveVideo(this, 'https://drive.google.com/file/d/1RReLDFLUxL7xOo1S9TFeeoDIPRTB6dDS/preview')">
+                            <img src="images/MultiplyMovements_Reel4.png" alt="Video thumbnail" loading="lazy" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/40">
+                              <i class="fas fa-play text-white text-3xl md:text-5xl"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-6">
+                          <h3 class="text-xl font-medium mb-2">Programs to Relations</h3>
+                          <p class="text-gray-600">A compelling discipleship reel with faith-driven storytelling.</p>
+                        </div>
+                      </div>
+                      
+
+                    <!-- Video 2 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden fade-in">
+                        <div class="relative aspect-video">
+                          <div class="custom-drive-video w-full h-full relative cursor-pointer overflow-hidden" onclick="loadDriveVideo(this, 'https://drive.google.com/file/d/1GIe8OzBMJvmAIX19TU-ZmC9CHyUPYsB5/preview')">
+                            <img src="images/lgbt_reel1.png" alt="Video thumbnail" loading="lazy" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/40">
+                              <i class="fas fa-play text-white text-3xl md:text-5xl"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-6">
+                          <h3 class="text-xl font-medium mb-2">LGBT Biryani</h3>
+                          <p class="text-gray-600">A bold, scroll-stopping reel with humor and spice.</p>
+                        </div>
+                      </div>
+                      
+
+                    <!-- Video 3 -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden fade-in">
+                        <div class="relative aspect-video">
+                          <div class="custom-drive-video w-full h-full relative cursor-pointer overflow-hidden" onclick="loadDriveVideo(this, 'https://drive.google.com/file/d/112w6QYBYyl6DxFCqdxumTsZRqipPOSAd/preview')">
+                            <img src="images/Alter&Vulture_Thumbnail_Reel3.png" alt="Video thumbnail" loading="lazy" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 flex items-center justify-center bg-black/40">
+                              <i class="fas fa-play text-white text-3xl md:text-5xl"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="p-6">
+                          <h3 class="text-xl font-medium mb-2">The Alter and the Vulture</h3>
+                          <p class="text-gray-600">Artistic visuals fused with layered spiritual themes.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Section 3 - Corporate Videos -->
+    <section class="py-20" id="section3">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                 <h2 class="text-3xl md:text-4xl font-semibold mb-4">Corporate Videos</h2> <!--Earlier Longform -->
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Explore my creative video projects showcasing innovative design solutions and technical expertise.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Video 1 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden fade-in">
+                    <div class="relative aspect-video">
+                      <div class="custom-drive-video w-full h-full relative cursor-pointer overflow-hidden" onclick="loadDriveVideo(this, 'https://drive.google.com/file/d/1nNfeUroHdeEkeZNJxtQ-sgcEHKaKt1A1/preview')">
+                        <img src="images/Biryani_lf1.png" alt="Video thumbnail" loading="lazy" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black/40">
+                          <i class="fas fa-play text-white text-3xl md:text-5xl"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-6">
+                      <h3 class="text-xl font-medium mb-2">Brisket & Biryani</h3>
+                      <p class="text-gray-600">A culture-rich food story with vibrant visuals and textures.</p>
+                    </div>
+                  </div>
+                  
+
+                <!-- Video 2 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden fade-in">
+                    <div class="relative aspect-video">
+                      <div class="custom-drive-video w-full h-full relative cursor-pointer overflow-hidden" onclick="loadDriveVideo(this, 'https://drive.google.com/file/d/1J_LqppcHTYc4dg2K_80uccK0MFAaQGuh/preview')">
+                        <img src="images/Called&sent_lf2.png" alt="Video thumbnail" loading="lazy" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black/40">
+                          <i class="fas fa-play text-white text-3xl md:text-5xl"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-6">
+                      <h3 class="text-xl font-medium mb-2">Called & Sent</h3>
+                      <p class="text-gray-600">A powerful documentary edit highlighting a faith movement.</p>
+                    </div>
+                  </div>
+                  
+                <!-- Video 3 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden fade-in">
+                    <div class="relative aspect-video">
+                      <div class="custom-drive-video w-full h-full relative cursor-pointer overflow-hidden" onclick="loadDriveVideo(this, 'https://drive.google.com/file/d/1TSOuMn0U2JOMKPs1B_6WNXPqaYnDet4L/preview')">
+                        <img src="images/4fieldonlinecourse_lf3.png" alt="Video thumbnail" loading="lazy" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 flex items-center justify-center bg-black/40">
+                          <i class="fas fa-play text-white text-3xl md:text-5xl"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="p-6">
+                      <h3 class="text-xl font-medium mb-2">4 Field Online Course</h3>
+                      <p class="text-gray-600">Spirit-led storytelling crafted for ministry and teaching.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- Testimonials Section -->
+        <section class="py-20 relative" id="testimonials">
+            <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-semibold mb-4 text-gray-800 dark:text-white">What Clients Say</h2>
+                <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+                Hear from some of the amazing people I've had the pleasure to work with.
+                </p>
+            </div>
+        
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial Card -->
+                <div class="bg-white dark:bg-[#2d2d2d] p-6 rounded-xl shadow-lg text-center transition transform hover:-translate-y-1">
+                    <img src="images/upc-logo.jpg" alt="Client 1" loading="lazy" class="w-32 h-32 md:w-36 md:h36 rounded-full mx-auto object-cover shadow-lg transition-transform duration-300 hover:scale-110">
+                    <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-3">UPC Chennai</h4>
+                    <p class="text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                        “We've worked with Sandesh on multiple projects, especially our church reels and conference programs. 
+                        He understands the heart of what we're trying to convey and always delivers beautifully edited, spirit-filled content that connects with our audience.”
+                </div>
+        
+                <div class="bg-white dark:bg-[#2d2d2d] p-8 rounded-xl shadow-lg text-center transition transform hover:-translate-y-1">
+                <img src="images/Allen.jpg" alt="Client 2" loading="lazy" class="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto object-cover shadow-lg transition-transform duration-300 hover:scale-110">
+                <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Allen Manoba</h4>
+                <p class="text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                    “I needed a video editor who could capture the energy and vibe of our food truck, and Sandesh nailed it. 
+                    From the food shots to the street atmosphere, everything looked vibrant and sharp. Our social engagement definitely went up!”
+                </p>
+                </div>
+        
+                <div class="bg-white dark:bg-[#2d2d2d] p-8 rounded-xl shadow-lg text-center transition transform hover:-translate-y-1">
+                <img src="images/Jeremy.png" alt="Client 3" loading="lazy" class="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto object-cover shadow-lg transition-transform duration-300 hover:scale-110">
+                <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Jeremy Williams</h4>
+                <p class="text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                    “As someone running a marketing agency, I've worked with a lot of editors — but Sandesh stood out. 
+                    He's reliable, fast, and knows how to make content look clean and professional. Great communication too.”
+                </p>
+                </div>
+        
+                <div class="bg-white dark:bg-[#2d2d2d] p-8 rounded-xl shadow-lg text-center transition transform hover:-translate-y-1">
+                <img src="images/Joel.png" alt="Client 4" loading="lazy" class="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto object-cover shadow-lg transition-transform duration-300 hover:scale-110">
+                <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Joel Shaw</h4>
+                <p class="text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                    “I had a vision for turning my teachings into online courses, and Sandesh brought that vision to life. 
+                    His editing gave my content structure, clarity, and flow. Very grateful for his attention to detail.”
+                </p>
+                </div>
+        
+                <div class="bg-white dark:bg-[#2d2d2d] p-8 rounded-xl shadow-lg text-center transition transform hover:-translate-y-1">
+                <img src="images/Jordan.png" alt="Client 5" loading="lazy" class="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto object-cover shadow-lg transition-transform duration-300 hover:scale-110">
+                <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Jordan Mullen</h4>
+                <p class="text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                    “Sandesh has helped me transform my course material into polished, high-quality videos. 
+                     His sense of pacing and visuals really helped make the lessons more engaging. I'd recommend him to any educator.”
+                </p>
+                </div>
+        
+                <div class="bg-white dark:bg-[#2d2d2d] p-6 rounded-xl shadow-lg text-center transition transform hover:-translate-y-1">
+                <img src="images/Kalyan.jpg" alt="Client 6" loading="lazy" class="w-40 h-40 md:w-48 md:h-48 rounded-full mx-auto object-cover shadow-lg transition-transform duration-300 hover:scale-110">
+                <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Kalyan Kumar</h4>
+                <p class="text-gray-600 dark:text-gray-300 text-base leading-relaxed">
+                    “Being a musician, I needed someone who gets Perfect Editings — Sandesh absolutely does. 
+                    He matched the energy of my music with perfect visuals and transitions. Loved working with him!”
+                </p>
+                </div>
+            </div>
+            </div>
+        </section>
+  
+
+        <!-- Contact Section -->
+        <section class="py-20" id="contact">
+            <div class="max-w-7xl mx-auto px-4">
+                <!-- Section Header -->
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-semibold mb-4">Contact Us</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">
+                        Get in touch for collaborations, project inquiries, or just to say hello. I'm always open to
+                        discussing new opportunities.
+                    </p>
+                </div>
+
+                <!-- Contact Content -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                    <!-- Left Side - Contact Information -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+
+                        <!-- Address -->
+                        <div class="flex items-start mb-8">
+                            <div class="text-blue-500 mt-1">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium mb-1">Address</h4>
+                                <p class="text-gray-600">Hospet,<br>Karnataka, India </p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="flex items-start mb-8">
+                            <div class="text-blue-500 mt-1">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium mb-1">Email</h4>
+                                <a href="mailto:sandeshvg7@gmail.com"
+                                    class="text-gray-600 hover:text-blue-500 transition">
+                                    sandeshvg7@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="flex items-start mb-8">
+                            <div class="text-blue-500 mt-1">
+                                <i class="fas fa-phone mr-1 text-blue-500"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-lg font-medium mb-1">Phone</h4>
+                                <a href="tel:+919538408120" class="text-gray-600 hover:text-blue-500 transition">
+                                    +91 9538408120
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Social Links -->
+                        <div>
+                            <h4 class="text-lg font-medium mb-4">Connect with me</h4>
+                            <div class="flex space-x-4">
+                                <a href="https://wa.me/919538408120" target="_blank"
+                                class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-green-500 hover:text-white transition">
+                                <i class="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="https://www.instagram.com/__wesly__?igsh=MTkxczl3cjl6cTIwZQ==" target="_blank"
+                                class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-pink-500 hover:text-white transition">
+                                <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com/people/Sandesh-Sandy/pfbid0mLNp5oMnVs1YAsLhoRZVpUikyX4xtj4SXZhF5wobeKvx19MfdejFsCy27uA3J2tol/?mibextid=ZbWKwL" target="_blank"
+                                    class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-blue-600 hover:text-white transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://x.com/sandeshvg7" target="_blank"
+                                    class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-blue-400 hover:text-white transition">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="http://linkedin.com/in/sandesh-v-g-7a093a368" target="_blank"
+                                    class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-blue-700 hover:text-white transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <form id="contactForm" class="space-y-6">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="#">
+
+                        <!-- Name Input -->
+                        <div>
+                            <label class="block text-gray-700 text-sm font-medium mb-2" for="name">Name</label>
+                            <input type="text" id="name" name="name"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
+                                placeholder="Your name" required>
+                        </div>
+
+                        <!-- Email Input -->
+                        <div>
+                            <label class="block text-gray-700 text-sm font-medium mb-2" for="email">Email</label>
+                            <input type="email" id="email" name="email"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
+                                placeholder="Your email" required>
+                        </div>
+
+                        <!-- Message Input -->
+                        <div>
+                            <label class="block text-gray-700 text-sm font-medium mb-2" for="message">Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition resize-none"
+                                placeholder="Your message" required></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit"
+                            class="submit-btn w-full bg-blue-500 text-white py-3 rounded-lg transition transform hover:scale-[1.02]">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Modal (hidden by default) -->
+                <div id="thankYouModal"
+                    class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 hidden">
+                <div class="bg-white rounded-lg shadow-xl max-w-md w-full p-6 text-center">
+                    <h2 class="text-2xl font-semibold mb-4">Thank You!</h2>
+                    <p class="text-gray-700 mb-6">Your message has been sent successfully.</p>
+                    <button onclick="closeModal()"
+                        class="px-6 py-2 bg-blue-500 text-white rounded transition transform hover:scale-[1.02] hover:bg-gradient-to-r hover:from-[#fc354c] hover:to-[#0abfbc]">
+                        Close
+                    </button>
+                </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-gray-300 py-16">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                    <!-- Brand Section -->
+                    <div class="col-span-1 md:col-span-2">
+                        <h3 class="text-2xl font-bold text-white mb-4">Sandesh V G</h3>
+                        <p class="text-gray-400 mb-6 max-w-md">
+                            A passionate video editor crafting compelling visual stories through creative editing and post-production. 
+                            Transforming raw footage into engaging narratives with attention to detail and artistic precision.
+                        </p>
+                        <!-- Social Links -->
+                        <div class="flex space-x-4">
+                            <a href="https://wa.me/919538408120"
+                                class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-green-500 hover:text-white transition-all duration-300">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://www.instagram.com/__wesly__?igsh=MTkxczl3cjl6cTIwZQ=="
+                                class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-pink-500 hover:text-white transition-all duration-300">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/people/Sandesh-Sandy/pfbid0mLNp5oMnVs1YAsLhoRZVpUikyX4xtj4SXZhF5wobeKvx19MfdejFsCy27uA3J2tol/?mibextid=ZbWKwL"
+                                class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://x.com/sandeshvg7"
+                                class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-400 hover:text-white transition-all duration-300">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="http://linkedin.com/in/sandesh-v-g-7a093a368"
+                                class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-700 hover:text-white transition-all duration-300">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div>
+                        <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#home" class="hover:text-white transition-colors duration-300">Home</a></li>
+                            <li><a href="#about" class="hover:text-white transition-colors duration-300">About</a></li>
+                            <li><a href="#section1" class="hover:text-white transition-colors duration-300">Long Form Videos</a></li>
+                            <li><a href="#section2" class="hover:text-white transition-colors duration-300">Short Form Videos</a></li>
+                            <li><a href="#section3" class="hover:text-white transition-colors duration-300">Reels</a></li>
+                            <li><a href="#contact" class="hover:text-white transition-colors duration-300">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div>
+                        <h4 class="text-lg font-semibold text-white mb-4">Contact Info</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-center">
+                                <i class="fas fa-envelope mr-3 text-blue-500"></i>
+                                <a href="mailto:sandeshvg7@gmail.com"
+                                    class="hover:text-white transition-colors duration-300">sandeshvg7@gmail.com</a>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-phone mr-3 text-blue-500"></i>
+                                <a href="tel:+919538408120" class="hover:text-white transition-colors duration-300">+91
+                                    9538408120</a>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-map-marker-alt mr-3 mt-1 text-blue-500"></i>
+                                <span> Hospet,<br>Karnataka, India</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="border-t border-gray-800 my-8"></div>
+
+                <!-- Copyright -->
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-center md:text-left mb-4 md:mb-0">
+                        <p>&copy; <span id="currentYear"></span> Sandesh V G. All Rights Reserved.</p>
+                    </div>
+                    <div class="text-center md:text-left mb-4 md:mb-0">
+                        <p>Developed by Rahul Karra</p>
+                    </div>
+                    <div class="text-sm">
+                        <a href="#" class="hover:text-white transition-colors duration-300 mr-4">Privacy Policy</a>
+                        <a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+</body>
+</html>
